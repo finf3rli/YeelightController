@@ -1,0 +1,21 @@
+﻿<Window x:Class="YeelightController.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YeelightController"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="362.5" Width="292" WindowStyle="None" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="Manual" ShowInTaskbar="False" Icon="wheel.png" MouseLeave="Window_MouseLeave">
+    <Grid HorizontalAlignment="Right" Width="284">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="_switch" Content="Power" Grid.Column="2" RenderTransformOrigin="0.368,9.55" Margin="0,284,0,-1" Click="Button_Click" Height="48" VerticalAlignment="Top"/>
+        <Image x:Name="spectrum" Grid.ColumnSpan="3" HorizontalAlignment="Center" Height="284" VerticalAlignment="Top" Width="284" Source="spectrum.png" MouseLeftButtonUp="spectrum_MouseLeftButtonUp" Stretch="None"/>
+
+    </Grid>
+</Window>
