@@ -14,6 +14,10 @@ You can set it to open on boot for windows by adding a shortcut in the `shell:st
 
 ## Problems
 
-If the lamp goes offline, you are most likely required to reopen the program, because it hasn't
-been implemented yet a connection verifier handle.
+~~If the lamp goes offline, you are most likely required to reopen the program, because it hasn't
+been implemented yet a connection verifier handle.~~
+
+Each time you open from notify icon it tries to connect. Still no Exception handler nor connection messages
+have been implemented(yet).
+
 Unfortunately i'm not able to set white colors.
