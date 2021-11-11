@@ -62,6 +62,7 @@ namespace YeelightController
         private void NotifyIcon_Click(object sender, EventArgs e)
         {
             this.Show();
+            lamp.Connect();
         }
 
         private void MenuItem_Click(object sender, EventArgs e)
